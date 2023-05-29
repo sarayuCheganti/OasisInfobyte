@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #9ae083;
+}
+
+.container {
+    margin: 1.8em;
+    width: 420px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 13px 13px 20px #15191e,
+        -13px -13px 20px #5a4d4d;
+}
+
+.display #screen {
+    height: 90px;
+    width: 361px;
+    font-size: 30px;
+    margin: 10px ;
+    margin-bottom: 20px;
+    padding: 10px ;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    text-align: right;
+    background: #f1f3ec;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+        inset -8px -8px 8px #ffffff;
+}
+
+.btns {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row button {
+    width: 60px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 6px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000020,
+        -5px -5px 8px #170d0d;
+}
+
+.row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+        inset -5px -5px 8px #fff;
+    background: #fff;
+}
+
+
+#ans {
+    background: #33ccff;
+    color: #fff;
+    box-shadow: 5px 5px 8px #00000020,
+        -5px -5px 8px #170d0d;
+}
+
+#ans:hover {
+    box-shadow: inset 5px 5px 8px #ebf2f4,
+        inset -5px -5px 8px #dbe2e4;
+}
+
+#enter {
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    background: #c287e7;
+}
+
+#enter:hover {
+    box-shadow: inset 5px 5px 8px #ebf2f4,
+        inset -5px -5px 8px #dbe2e4;
+}
+
+#clear {
+    background: #33cc33;
+    color: #fff;
+}
+
+#clear:hover {
+    box-shadow: inset 5px 5px 8px #ebf2f4,
+        inset -5px -5px 8px #dbe2e4;
+}
+
+#del {
+    background: #ff3399;
+    color: #fff;
+}
+
+#del:hover {
+    box-shadow: inset 5px 5px 8px #ebf2f4,
+        inset -5px -5px 8px #dbe2e4;
+}
